@@ -9,7 +9,7 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 // -------------------------------------------------PIE  chart ----------------------------------------------------------
 
 function App() {
-  const data02 = [
+  const pieData = [
     { name: "A1", value: 100 },
     { name: "A2", value: 300 },
     { name: "B1", value: 100 },
@@ -166,7 +166,7 @@ function App() {
             <ResponsiveContainer width="100%" height="100%">
               <PieChart width={400} height={400}>
                 <Pie
-                  data={data02}
+                  data={pieData}
                   dataKey="value"
                   cx="50%"
                   cy="50%"
